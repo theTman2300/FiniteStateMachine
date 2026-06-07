@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 708f4de2978327743900124d7e4fe362, type: 3}
-  m_Name: Idle
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyStateIdle
+  m_Script: {fileID: 11500000, guid: f72d37f33ae6d9545a7b39faa5d2855f, type: 3}
+  m_Name: Wander
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStateWander
   Transitions:
   - {fileID: 11400000, guid: aa9b5ae6b89157242bbcdfff118220fb, type: 2}
-  - {fileID: 11400000, guid: ad6a821f01cbc9041a5d67c5d277eed6, type: 2}
+  maxWanderDistance: 6
+  wanderIntervalSeconds: 3
+  speed: 2
