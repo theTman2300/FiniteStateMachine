@@ -1,15 +1,20 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class Transition
+public abstract class Transition : ScriptableObject
 {
-    State toState;
-    public UnityEvent<State> OnTransition;
+    [SerializeField] State toState;
+    [HideInInspector] public UnityEvent<State> OnTransition;
 
-    public abstract void Tick();
+    public virtual void Start() { }
 
-    public virtual void CheckShouldTransition()
+    public virtual void Tick()
     {
-        OnTransition.Invoke(toState);
+        if (ShouldTransition())
+        {
+            OnTransition.Invoke(toState);
+        }
     }
+
+    public abstract bool ShouldTransition();
 }

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cf9a1549aee6f49aaa4bcf39bbd646, type: 3}
+  m_Name: PlayerInView
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTransitionPlayerInView
+  toState: {fileID: 11400000, guid: 6949f2c87c4ec6847bf2177559c2bd4c, type: 2}
+  OnTransition:
+    m_PersistentCalls:
+      m_Calls: []

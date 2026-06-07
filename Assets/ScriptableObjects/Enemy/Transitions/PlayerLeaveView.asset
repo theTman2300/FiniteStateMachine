@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9a3f80b537aec45986856e4bbe4fec, type: 3}
+  m_Name: PlayerLeaveView
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTransitionPlayerLeaveView
+  toState: {fileID: 11400000, guid: dfbb65a9bf0aef548a798def7287728d, type: 2}
+  OnTransition:
+    m_PersistentCalls:
+      m_Calls: []

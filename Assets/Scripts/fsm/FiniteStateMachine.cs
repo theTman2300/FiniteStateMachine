@@ -4,9 +4,9 @@ public class FiniteStateMachine : MonoBehaviour
 {
     public State currentState;
 
-    void Start()
+    private void Start()
     {
-        
+        StateStart();
     }
 
     void Update()
@@ -16,13 +16,15 @@ public class FiniteStateMachine : MonoBehaviour
 
     public void TransitionToState(State state)
     {
+        currentState.End();
         currentState = state;
-        SubscribeToTransitions(currentState.Transitions);
+        StateStart();
     }
 
-    void UnsubscribeOldTransitions()
+    void StateStart()
     {
-
+        currentState.Start();
+        SubscribeToTransitions(currentState.Transitions);
     }
 
     void SubscribeToTransitions(Transition[] transitions)

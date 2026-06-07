@@ -1,14 +1,25 @@
 using UnityEngine;
 
-public abstract class State
+public abstract class State : ScriptableObject
 {
     public Transition[] Transitions;
-    private FiniteStateMachine fsm;
 
-    public abstract void Tick();
-
-    public void SetFSMreference(FiniteStateMachine newFSM)
+    public virtual void Start()
     {
-        fsm = newFSM;
+        foreach (Transition transition in Transitions)
+        {
+            transition.Start();
+        }
     }
+
+    public virtual void Tick()
+    {
+        foreach (Transition transition in Transitions)
+        {
+            transition.Tick();
+        }
+    }
+
+    public virtual void End() { }
+
 }
