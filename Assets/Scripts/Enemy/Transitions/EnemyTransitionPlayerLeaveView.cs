@@ -13,7 +13,7 @@ public class EnemyTransitionPlayerLeaveView : Transition
         Player = GameObject.FindWithTag("Player").GetComponent<Transform>();
     }
 
-    public override bool ShouldTransition()
+    protected override bool ShouldTransition()
     {
         RaycastHit hit;
         Physics.Raycast(Enemy.position, (Player.position - Enemy.position).normalized, out hit);

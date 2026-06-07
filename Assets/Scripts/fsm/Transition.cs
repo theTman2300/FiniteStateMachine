@@ -16,5 +16,5 @@ public abstract class Transition : ScriptableObject
         }
     }
 
-    public abstract bool ShouldTransition();
+    protected abstract bool ShouldTransition();
 }

@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9a3f80b537aec45986856e4bbe4fec, type: 3}
-  m_Name: PlayerLeaveView
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyTransitionPlayerLeaveView
-  toState: {fileID: 11400000, guid: 3a2ed91269a24d84a90fdae153d0e94c, type: 2}
+  m_Script: {fileID: 11500000, guid: 04c834aee9b143e40838f6b2b15bfc47, type: 3}
+  m_Name: EnemyReachedDestination
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStransitionReachedDestination
+  toState: {fileID: 11400000, guid: dfbb65a9bf0aef548a798def7287728d, type: 2}
   OnTransition:
     m_PersistentCalls:
       m_Calls: []

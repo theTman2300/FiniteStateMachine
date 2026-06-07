@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-[CreateAssetMenu(fileName = "Follow", menuName = "ScriptableObjects/Enemy/States/Follow")]
-public class EnemyStateFollow : State
+[CreateAssetMenu(fileName = "Search", menuName = "ScriptableObjects/Enemy/States/Search")]
+public class EnemyStateSeach : State
 {
     [SerializeField] float speed;
     NavMeshAgent Enemy;
@@ -13,12 +13,7 @@ public class EnemyStateFollow : State
         base.Start();
         Enemy = GameObject.FindWithTag("Enemy").GetComponent<NavMeshAgent>();
         Player = GameObject.FindWithTag("Player").GetComponent<Transform>();
-        Enemy.speed = speed;
-    }
-
-    public override void Tick()
-    {
-        base.Tick();
         Enemy.SetDestination(Player.position);
+        Enemy.speed = speed;
     }
 }

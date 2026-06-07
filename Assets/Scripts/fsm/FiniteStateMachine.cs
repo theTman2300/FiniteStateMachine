@@ -4,7 +4,7 @@ public class FiniteStateMachine : MonoBehaviour
 {
     public State currentState;
 
-    private void Start()
+    protected virtual void Start()
     {
         StateStart();
     }

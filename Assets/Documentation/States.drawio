@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="7ojqqCOk9tsSdzXVnYJO">
-    <mxGraphModel dx="984" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="837" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
             <mxPoint x="460" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kaX4WNFZyzGd7ofn2PIC-24" connectable="0" parent="kaX4WNFZyzGd7ofn2PIC-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="timer" vertex="1">
+        <mxCell id="kaX4WNFZyzGd7ofn2PIC-24" connectable="0" parent="kaX4WNFZyzGd7ofn2PIC-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Reached last&lt;div&gt;player location&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2117" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -91,7 +91,7 @@
         </mxCell>
         <mxCell id="kaX4WNFZyzGd7ofn2PIC-18" connectable="0" parent="kaX4WNFZyzGd7ofn2PIC-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="View of player lost" vertex="1">
           <mxGeometry relative="1" x="-0.4095" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-51" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kaX4WNFZyzGd7ofn2PIC-21" edge="1" parent="1" source="kaX4WNFZyzGd7ofn2PIC-4" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="kaX4WNFZyzGd7ofn2PIC-3" value="">
@@ -104,6 +104,15 @@
           <mxGeometry relative="1" x="-0.307" y="3" as="geometry">
             <mxPoint x="15" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YPR7kNpVzvcMhcTWtG5n-1" edge="1" parent="1" source="kaX4WNFZyzGd7ofn2PIC-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.332;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;" target="kaX4WNFZyzGd7ofn2PIC-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPR7kNpVzvcMhcTWtG5n-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="player in view" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
