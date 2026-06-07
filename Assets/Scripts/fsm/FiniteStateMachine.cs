@@ -21,7 +21,7 @@ public class FiniteStateMachine : MonoBehaviour
         StateStart();
     }
 
-    void StateStart()
+    protected virtual void StateStart()
     {
         currentState.Start();
         SubscribeToTransitions(currentState.Transitions);
