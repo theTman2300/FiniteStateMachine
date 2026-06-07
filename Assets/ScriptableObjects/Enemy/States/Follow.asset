@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStateFollow
   Transitions:
   - {fileID: 11400000, guid: b82f767daa577424c85168082842274f, type: 2}
+  - {fileID: 11400000, guid: ba2aa185ba4b77e43becae3483810040, type: 2}
   speed: 3.5
