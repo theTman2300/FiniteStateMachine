@@ -57,3 +57,8 @@ Another thing I implemented was some UI text that showed the current state of th
 
 I held a playtest just to see if everything would function properly on another device as well, which it did, and to see if there was any feedback to make things more clear. I didn't expect much feedback, because the project is more about the functionality than the design, but I did get some feedback about the fact that the playable area didnt have any barriers on the edge, meaning you would fall off and be unable to do anything until relaucnhing the project. Very easey fix, but relatively important. 
 
+### Reflection
+
+I learned a lot from this project, this is a strategy that I hadn't used before and it was pretty challenging at first. I think that I now know a lot more about this and implementing it again would go a lot easier. If I were to do this again, I might find a way to set up my documentation differently, because the way that I did it this time feels unorganized, so that is something that I will have to look into more. However, the fact that the documentation is there and complete was my inital  goal, so I am hapy about that. If I were to do it again I might also put in more assets from the internet, however this time I chose against it to focus more on the actual strategy and not the look and feel of the project. All in all i would call this a great success!
+
+<img width="1920" height="1200" alt="afbeelding" src="https://github.com/user-attachments/assets/e05d7362-657c-4b00-b7d2-e835a5681685" />
